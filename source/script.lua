@@ -1,4 +1,18 @@
-User_Or_UserId="24160299"
+--[[
+
+    KRAMPUS STREAM SNIPER
+
+    
+    
+    Credits:
+        Originally made by Acrillis (synapse x version)
+        Re-Designed for Krampus by furryboy.1
+        With help from _exec4tble_
+
+    Loadstring: 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FurryBoyYT/KrampusStreamSniper/main/source/script.lua"))()
+
+]]
 
 local Screenguini = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -386,4 +400,3 @@ end)
 
 local getPlaceId = game.PlaceId
 PlaceIdBox.Text = getPlaceId
-UsernameBox.Text = User_Or_UserId
