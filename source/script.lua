@@ -1,14 +1,12 @@
 --[[
 
     Synapse Stream Sniper
+    Usually used for Synapse Z
     
     Credits:
         Originally made by Acrillis (Synapse X version)
         Re-Designed by furryboy.1
         With help from _exec4tble_
-
-    Loadstring: 
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/FurryBoyYT/SynapseZStreamSniper/main/source/script.lua"))()
 
 ]]
 
@@ -396,5 +394,5 @@ end
    end
 end)
 
-local getPlaceId = game.PlaceId
-PlaceIdBox.Text = getPlaceId
+PlaceIdBox.Text = game.PlaceId
+UsernameBox.Text = Username_Or_UserId
