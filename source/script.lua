@@ -1,16 +1,14 @@
 --[[
 
-    KRAMPUS STREAM SNIPER
-
-    
+    Synapse Stream Sniper
     
     Credits:
-        Originally made by Acrillis (synapse x version)
-        Re-Designed for Krampus by furryboy.1
+        Originally made by Acrillis (Synapse X version)
+        Re-Designed by furryboy.1
         With help from _exec4tble_
 
     Loadstring: 
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/FurryBoyYT/KrampusStreamSniper/main/source/script.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FurryBoyYT/SynapseZStreamSniper/main/source/script.lua"))()
 
 ]]
 
@@ -51,7 +49,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(203, 203, 203)
 TextLabel.BorderSizePixel = 0
 TextLabel.Size = UDim2.new(1, 0, 0, 40)
 TextLabel.Font = Enum.Font.SourceSansLight
-TextLabel.Text = "<b>Krampus Stream Sniper</b>"
+TextLabel.Text = "<b>Synapse Stream Sniper</b>"
 TextLabel.RichText = true
 TextLabel.TextSize = 24.000
 
