@@ -189,7 +189,7 @@ local searching = false
 local confirm = false
 
 local function HttpGet(url)
-return pcall(HttpService.JSONDecode, HttpService, game:HttpGet(url))
+    return pcall(HttpService.JSONDecode, HttpService, game:HttpGet(url))
 end
 
 local function Status(text, tout)
@@ -220,7 +220,6 @@ local function fetchThumbs(tokens)
            ["Content-Type"] = "application/json"
        },
        Method = "POST",
-
        Body = {}
    }
 
