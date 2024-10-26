@@ -311,7 +311,7 @@ end
    end
    
    Status("Searching...")
-   local cursor = nil
+   local cursor = ""
    local searched = 0
    local maxSearchs = 0
    local players = 0
