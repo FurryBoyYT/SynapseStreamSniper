@@ -206,8 +206,8 @@ StartButton.Text = text
 end
 
 local function getServers(id, cursor)
-   -- local fullurl = "https://games.roblox.com/v1/games/".. id .."/servers/Public?limit=100"
-   local fullurl = "https://api.iyr.lol/servers?placeId=".. id .."&excludeFullGames=false&Limit=100"
+   local fullurl = "https://games.roblox.com/v1/games/".. id .."/servers/Public?limit=100"
+   -- local fullurl = "https://api.iyr.lol/servers?placeId=".. id .."&excludeFullGames=false&Limit=100"
    if cursor then
        fullurl = "&cursor=".. cursor
    end
@@ -312,7 +312,7 @@ end
    end
    
    Status("Searching...")
-   local cursor = ""
+   local cursor = nil
    local searched = 0
    local maxSearchs = 0
    local players = 0
